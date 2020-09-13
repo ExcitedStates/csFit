@@ -1,0 +1,8 @@
+[
+ { "ensemble": "ensemble.in",
+   "selection": "test.in",
+   "threshold": 0.1,
+   "ensemble_size": 10,
+   "output_ensembles": 10
+ }
+]

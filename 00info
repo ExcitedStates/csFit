@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# run the calculations for a test input
+
+python ./csFit_v1_release.py ./csFit_input.json
+
+# to change the way the script functions using the json input
+
+#  "ensemble"			name of the file that containts the paths to the chemcial shifts 
+#  "selection"	 		name of the file that containts the structures to select from
+#  "threshold"			mimimum population weight that a structure can have
+#  "ensemble_size"		maximum number of members in the ensemble
+#  "output_ensembles"		number of solutions to return
+
+
+
+#  can be added with mimimal changes to the code
+#  "email_receiving_address"	email address to recieve email notifications
+#  "email_sending_address"	email address to send email notifications
+#  "email_sending_password"	password for sending email account
+
